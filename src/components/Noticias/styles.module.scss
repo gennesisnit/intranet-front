@@ -1,0 +1,38 @@
+
+
+
+.cardNoticias{
+    display: flex;
+    max-width: 680px;
+    width: 680px;
+    flex-wrap: wrap;
+    height: 335px;
+    max-height: 335px;
+
+    .cardBody{
+      
+  
+        color: var(--dark-900)
+        
+       
+     }
+   
+     .dataCreate{
+        color: #5a5a5a;
+     }
+ }
+
+
+.cardContent{
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  width: 200px;
+  padding: 10px;
+
+}
+
+.carImg{
+  align-content: center;
+  max-height: 135px;
+}

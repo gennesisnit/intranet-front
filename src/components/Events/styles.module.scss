@@ -1,0 +1,33 @@
+
+.containerEvent{
+    display: flex;
+    padding: 10px 0;
+    margin-top: 1.5rem;
+}
+
+.cardEvent{
+    display: flex;
+    align-items: center;
+
+    .calendar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: .3rem;
+        border: 3px  solid var( --dark-900);
+        margin-right: 1rem;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+
+}
+
+.titulo{
+    font-size: 20px;
+}
+
+.time{
+    color: var(--gray-100);
+}

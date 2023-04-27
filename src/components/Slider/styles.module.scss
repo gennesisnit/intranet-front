@@ -1,0 +1,112 @@
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo{
+    margin-bottom: 5rem;
+}
+
+.content{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    .input{
+        margin-bottom: 3rem;
+        
+    }
+
+    .button{
+        width: 100%;
+        background-color: var(--blue-100);
+        color: var(--white);
+
+
+        &:hover{
+            background-color: var(--blue-100);
+            filter: brightness(1.2);
+        }
+        
+    }
+
+}
+
+.containerCarrousel{
+    height: 45vh;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.item img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+.swiper-pagination-bullet  {
+    background-color: rgb(60, 148, 225);
+    opacity:0 7;
+    color: white;
+    padding: 8px;
+    border-radius: 0;
+}
+
+
+.containerMain{
+    max-width: 1120px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.title{
+    color: var( --dark-900);
+}
+
+.title::after{
+    content: "";
+     display: block;
+     width: 60px;
+     height: 3px;
+     border-radius: 4rem;
+     background-color: var( --dark-900)
+    
+}
+
+.contentMain{
+    
+    display: flex;
+    flex-direction: column;
+
+    .title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.sidebar{
+  
+    display: flex;
+    flex-direction: column;
+}
+
+.link{
+    margin-top: 1.5rem;
+}
+
+.aniversariantes{
+    margin-top: 1.5rem;
+}

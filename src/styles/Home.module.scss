@@ -1,0 +1,158 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logo {
+  margin-bottom: 5rem;
+}
+
+.content {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .input {
+    margin-bottom: 3rem;
+  }
+
+  .button {
+    width: 100%;
+    background-color: var(--blue-100);
+    color: var(--white);
+
+    &:hover {
+      background-color: var(--blue-100);
+      filter: brightness(1.2);
+    }
+  }
+}
+
+.item img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.containerMain {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.title {
+  color: var(--dark-900);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  width: 7rem;
+  height: 3px;
+  margin-top: 0.3rem;
+  border-radius: 4rem;
+  background-color: var(--dark-900);
+}
+
+.contentMain {
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    display: flex;
+    font-size: 28px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    font-size: 28px;
+  }
+}
+
+.link {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper {
+  max-width: 300px;
+}
+
+.containerCarrousel {
+  width: 300px;
+}
+
+.aniversariantes {
+  margin-top: 3rem;
+
+  .imgAniversariante {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 360px;
+    flex-direction: column;
+    padding: 5;
+
+    img {
+      height: 165px;
+      padding: 5px;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.cardLink {
+  width: 100%;
+  padding: 1rem;
+}
+
+.nameAniversariante{
+ font-weight: 700;
+ font-size: 18px;
+}
+.cargoAniversariante{
+
+}
+.dataAniversariante{
+font-size: 14px;
+color: #605f5f
+}
+.eventContainer{
+    margin-top: 2rem;
+}
+
+.acessoRapido{
+  height: 80px;
+  padding: 10px;
+
+
+  button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+    color: #444444;
+  }
+}
